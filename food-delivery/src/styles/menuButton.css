@@ -1,0 +1,82 @@
+/* Container for the menu toggle */
+.menu-toggle-container {
+    position: relative;
+    display: flex; 
+    justify-content: flex-end; 
+    position: -webkit-sticky;
+    position: sticky;
+    margin-top: 5rem;
+    margin-right: 5rem;
+
+}
+
+/* Styling for the toggle button */
+.menu-toggle-button {
+    width: 8%;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;
+    outline: none;
+    position: fixed;
+    transition: background-color 0.3s ease;
+}
+
+.menu-toggle-button:hover {
+    background-color: #e64a19;
+}
+
+/* Styling for the list */
+.menu-list {
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    background-color: #111; 
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden; 
+    margin-top:2.3rem;
+    margin-right: -2rem;
+    position: fixed;
+    /* transition: max-height 0.5s ease, opacity 0.5s ease;  */
+
+}
+
+/* Styling for individual items */
+.menu-item {
+    display: flex;
+    justify-content: space-between; 
+    padding: 15px 20px;
+    border-bottom: 1px solid #333; 
+    color: #fff;
+    transition: background-color 0.3s;
+   
+}
+
+.menu-item:last-child {
+    border-bottom: none; 
+}
+
+
+.menu-item:hover {
+    background-color: #222; 
+}
+
+/* Styling for the category text */
+.menu-category {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* Styling for the count text */
+.menu-count {
+    font-weight: bold;
+    font-size: 14px;
+    color: #b0b0b0; 
+    margin-left: 2rem;
+}

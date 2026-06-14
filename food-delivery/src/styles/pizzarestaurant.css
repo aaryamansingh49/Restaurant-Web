@@ -1,0 +1,67 @@
+
+.restaurant-tile{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.pizzahut {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 6rem;
+    padding: 2rem;
+    height:300px;
+    margin-top:2rem;
+  }
+
+  .pizzahut1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 6rem;
+    padding: 2rem;
+    height:300px;
+    margin-top:2rem;
+    margin-bottom:4rem;
+  }
+  
+  .pizzacards {
+    /* background: #fff; */
+    border: 2px solid #fff;
+    border-radius: 65px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: calc(25% - 2rem);
+    min-width: 250px;
+    max-width: 300px;
+    position: relative;
+    text-decoration: none;
+  
+  }
+  .pizzacards:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   
+  
+  }
+  
+  .pizza-image {
+    width: 80%;
+    height: 200px;
+    /* object-fit: cover; */
+    margin-top:50px;
+    margin-left:1.5rem;
+  }
+
+  .pizzahutdescription{
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+.restaurant-tile span{
+  color:#ff500e;
+}
+
